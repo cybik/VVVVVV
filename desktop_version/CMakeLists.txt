@@ -119,7 +119,6 @@ ENDIF()
 SET(PNG_SRC ../third_party/lodepng/lodepng.c)
 
 # Executable information
-string(STRIP ${VVV_SRC} VVV_SRC)
 IF(WIN32)
 	ADD_EXECUTABLE(VVVVVV WIN32 ${VVV_SRC})
 ELSE()
